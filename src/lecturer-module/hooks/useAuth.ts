@@ -27,9 +27,6 @@ import {
   validateLecturerRegistration,
 } from '../utils/validation';
 
-// ============================================
-// HOOK STATE INTERFACE
-// ============================================
 
 interface UseAuthState {
   // Current lecturer data
@@ -66,9 +63,6 @@ interface UseAuthActions {
 
 export interface UseAuthReturn extends UseAuthState, UseAuthActions {}
 
-// ============================================
-// CUSTOM HOOK
-// ============================================
 
 /**
  * useAuth Hook
